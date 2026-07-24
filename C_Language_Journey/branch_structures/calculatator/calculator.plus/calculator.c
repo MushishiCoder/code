@@ -9,7 +9,7 @@ int main(){
     printf("请输入一个字符:");
     char op;
     op=getchar();
-    int error=0;
+    int error=0;                            //标志性变量，可以将输出语句与核心计算逻辑分开。
     switch(op){
         case '+':result=x+y;
         break;
