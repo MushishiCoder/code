@@ -1,0 +1,1 @@
+计算数列a,aa,aaa,aaaa,aaaaa....前n项的和。
