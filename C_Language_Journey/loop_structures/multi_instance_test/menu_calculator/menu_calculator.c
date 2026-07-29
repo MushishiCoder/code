@@ -33,6 +33,11 @@ int main(){
                 result=a*b;
                 break;
             case 4:
+                if(fabs(b)<1e-7){             //排除被除数为0的情况
+                    printf("除法的被除数不能为0!!!\n\n");
+                    continue;
+                }
+
                 result=a/b;
                 break;
         }
