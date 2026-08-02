@@ -4,9 +4,9 @@
 int prime(int m);
 
 int main(){
-    int even=0,i;
+    int i,even;
 
-    printf("请输入一个不小于6的整数:");
+    printf("请输入一个不小于6的偶数even:");
     scanf("%d",&even);
 
     if(even<6||even%2!=0){
@@ -24,7 +24,7 @@ int main(){
 
 int prime(int m){
     int j;
-
+    
     if(m<=1){
         return 0;
     }
