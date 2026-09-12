@@ -12,7 +12,7 @@ int main(void){
     if(fgets(str,sizeof(str),stdin)!=NULL){
         str[strcspn(str,"\n")]='\0';
 
-        while(*p=='0'&&*(p+1)!='0'&&*(p+1)!='.'){
+        while(*p=='0'&&*(p+1)!='\0'&&*(p+1)!='.'){
             p++;
         }
 
