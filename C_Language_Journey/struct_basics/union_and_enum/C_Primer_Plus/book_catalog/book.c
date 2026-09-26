@@ -20,7 +20,7 @@ int main(void){
     printf("Please enter the author:\n");
     s_gets(library.author,MAXAUTL);
     printf("Please enter the value:\n");
-    scanf("%f",&library.value);
+    scanf("%f",&library.value);             //点运算符的优先级比取地址符的优先级高
 
     printf("%s by %s: $ %.2f\n",library.title,library.author,library.value);
     printf("%s:\"%s\"(%.2f)\n",library.author,library.title,library.value);
